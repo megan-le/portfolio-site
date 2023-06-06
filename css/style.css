@@ -1,0 +1,154 @@
+/*
+Colors used:
+Primary color (periwinkle): #6399c2
+White: #ffffff
+Black: #221d23
+*/
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #221d23;
+}
+
+#index {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#work {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#about {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact {
+  margin: auto;
+  text-align: center;
+}
+
+.footer-background {
+  background-color: #f5f5f5;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #6399c2;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #221d23;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #221d23;
+}
+
+h4 {
+  font-family: 'Nunito Sans';
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #221d23;
+}
+
+h5 {
+  font-family: 'Nunito Sans';
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1;
+  color: #221d23;
+}
+
+h6 {
+  font-family: 'Nunito Sans';
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  color: #221d23;
+}
+
+p {
+  font-family: 'Nunito Sans';
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+a {
+  font-size: 'Nunito Sans';
+  color: #6399c2;
+}
+
+a:hover {
+  font-size: 'Nunito Sans';
+  color: #65488b;
+  text-decoration: underline;
+}
+
+a:visited {
+  font-size: 'Nunito Sans';
+  color: #6399c2;
+}
+
+a:active {
+  font-size: 'Nunito Sans';
+  color: #422f5b;
+}
+
+a:focus {
+  color: #65488b;
+  text-decoration: underline;
+}
+
+.button {
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button.contact {
+  display: inline-block;
+  background-color: transparent;
+  color: #6399c2;
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #6399c2;
+  padding: 10px 20px;
+}
+
+.button.contact:hover {
+  display: inline-block;
+  background-color: #6399c2;
+  color: white;
+  opacity: 100;
+}

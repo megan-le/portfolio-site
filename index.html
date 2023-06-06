@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="author" content="Megan Le">
     <meta name="Description" content="Portfolio website showcasing the work of UX Designer, Megan Le.">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Megan Le | UX Designer</title>
     <link href="img/favicon.ico.png" rel="shortcut icon">
 </head>
@@ -24,69 +33,74 @@
     </header>
 
     <main>
-        <div>
+        <section id="index">
             <div>
-                <h1>Hi! I'm Megan Le. <br>
-                    <span>A UX designer based in the Midwest</span>
-                </h1>
-                <p>
-                    I'm a UX designer dedicated to crafting meaningful experiences that resonate with users. Drawing
-                    from my background in graphic design and photography, I bring a unique blend of creative intuition
-                    and rational design thinking to my work.
-                </p>
+                <div>
+                    <h1>Hi! I'm Megan Le. <br>
+                        <span>A UX designer based in the Midwest.</span>
+                    </h1>
+                    <p>
+                        I'm a UX designer dedicated to crafting meaningful experiences that resonate with users. Drawing
+                        from my background in graphic design and photography, I bring a unique blend of creative
+                        intuition
+                        and rational design thinking to my work.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div>
             <div>
-                <h2>Projects</h2>
-                <div><!--open row that holds (2) columns for project-->
-                    <div><!--open first column (use for image)-->
-                        <picture>
-                            <source srcset="img/moneymerge/MoneyMerge-Cover_600px.png" (max-width:767px)>
-                            <img src="img/moneymerge/MoneyMerge-Cover_1200px.png"
-                                alt="MoneyMerge, an all-in-one financial app with image of a phone screen">
-                        </picture>
-                    </div><!-- end first column-->
-                    <div><!--open second column (use for text)-->
-                        <h3>MoneyMerge</h3>
-                        <p>
-                            MoneyMerge is a financial app that enables users to centralize their financial accounts and
-                            streamline transactions.
-                        </p>
-                        <a href="moneymerge.html">View Project</a><!--buton-->
-                    </div><!--end second column-->
-                </div><!--end row that holds (2 columns) for project-->
+                <div>
+                    <h2>Projects</h2>
+                    <div><!--open row that holds (2) columns for project-->
+                        <div><!--open first column (use for image)-->
+                            <picture>
+                                <source srcset="img/moneymerge/MoneyMerge-Cover_600px.png" (max-width:767px)>
+                                <img src="img/moneymerge/MoneyMerge-Cover_1200px.png"
+                                    alt="MoneyMerge, an all-in-one financial app with image of a phone screen">
+                            </picture>
+                        </div><!-- end first column-->
+                        <div><!--open second column (use for text)-->
+                            <h3>MoneyMerge</h3>
+                            <p>
+                                MoneyMerge is a financial app that enables users to centralize their financial accounts
+                                and
+                                streamline transactions.
+                            </p>
+                            <a href="moneymerge.html" class="button">View Project</a><!--buton-->
+                        </div><!--end second column-->
+                    </div><!--end row that holds (2 columns) for project-->
 
-                <div><!--open row that holds (2) columns for project-->
-                    <div><!--open first column (use for image)-->
-                        <picture>
-                            <source srcset="img/feeding-america/FeedingAmerica-Cover_600px.png" (max-width:767px)>
-                            <img src="img/feeding-america/FeedingAmerica-Cover_1200px.png"
-                                alt="Laptop with design of Feeding America homepage">
-                        </picture>
-                    </div><!-- end first column-->
-                    <div><!--open second column (use for text)-->
-                        <h3>Feeding America</h3>
-                        <p>
-                            Redesigned Feeding America's homepage to enhance the user experience and address a business
-                            need.
-                        </p>
-                        <a href="#">View Project</a><!--buton-->
-                    </div><!--end second column-->
-                </div><!--end row that holds (2 columns) for project-->
+                    <div><!--open row that holds (2) columns for project-->
+                        <div><!--open first column (use for image)-->
+                            <picture>
+                                <source srcset="img/feeding-america/FeedingAmerica-Cover_600px.png" (max-width:767px)>
+                                <img src="img/feeding-america/FeedingAmerica-Cover_1200px.png"
+                                    alt="Laptop with design of Feeding America homepage">
+                            </picture>
+                        </div><!-- end first column-->
+                        <div><!--open second column (use for text)-->
+                            <h3>Feeding America</h3>
+                            <p>
+                                Redesigned Feeding America's homepage to enhance the user experience and address a
+                                business
+                                need.
+                            </p>
+                            <a href="#" class="button">View Project</a><!--buton-->
+                        </div><!--end second column-->
+                    </div><!--end row that holds (2 columns) for project-->
+                </div>
             </div>
-        </div>
+        </section>
     </main>
 
-    <footer id="contact">
+    <footer id="contact" class="contact footer-background">
         <div>
             <h2>Get in Touch</h2>
             <p>
                 Do you like my work and want to discuss opportunities? Let's chat!
             </p>
             <div>
-                <a href="mailto:meganleart@gmail.com">Email Me</a>
+                <a href="mailto:meganleart@gmail.com" class="button contact">Email Me</a>
             </div>
             <div>
                 <a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
