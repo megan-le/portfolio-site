@@ -21,10 +21,10 @@
 
 <body>
     <header>
-        <div>
-            <img src="img/logotype_web_100px.png" alt="Megan Le">
+        <div class="container">
+            <img class="logo-img" src="img/logotype_web_100px.png" alt="logo">
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -34,7 +34,7 @@
     </header>
 
     <main>
-        <section id="about">
+        <section id="about" class="container">
             <div>
                 <div>
                     <h1>About Megan Le</h1>
@@ -49,7 +49,7 @@
                             alt="Girl standing outdoors and smiling at the camera. She has brown curly hair and brown eyes.">
                     </picture>
 
-                    <div> <!--green box, row for columns-->
+                    <div class="row"> <!--green box, row for columns-->
                         <div> <!--blue box, column one-->
                             <h2>My Story</h2>
                             <p>
@@ -87,10 +87,9 @@
                         <div> <!--blue box, column two-->
                             <h2>Skills &amp; Tools</h2>
 
-                            <div> <!--inner green box, row for columns-->
+                            <div class="row"> <!--inner green box, row for columns-->
                                 <div> <!--inner blue box, column one-->
                                     <h3>Skills</h3>
-
                                     <ul>
                                         <li>Competitive Analysis</li>
                                         <li>User Research</li>
@@ -130,8 +129,8 @@
         </section>
     </main>
 
-    <footer id="contact" class="contact footer-background">
-        <div>
+    <footer>
+        <div id="contact" class="container">
             <h2>Get in Touch</h2>
             <p>
                 Do you like my work and want to discuss opportunities? Let's chat!
@@ -139,16 +138,18 @@
             <div>
                 <a href="mailto:meganleart@gmail.com" class="button contact">Email Me</a>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
-                    <img src="img/contact/linkedin-fill.svg" alt="LinkedIn logo" width="32px" height="32px">
-                </a>
-                <a href="https://www.behance.net/meganle" target="_blank">
-                    <img src="img/contact/behance.svg" alt="Behance logo" width="32px" height="32px">
-                </a>
-                <a href="https://www.instagram.com/megan_e_le/" target="_blank">
-                    <img src="img/contact/instagram.svg" alt="Instagram logo" width="32px" height="32px">
-                </a>
+            <div class="socials">
+                <ul>
+                    <li class="social-img"><a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
+                            <img src="img/contact/linkedin-fill.svg" alt="LinkedIn logo">
+                        </a></li>
+                    <li class="social-img"><a href="https://www.behance.net/meganle" target="_blank">
+                            <img src="img/contact/behance.svg" alt="Behance logo">
+                        </a></li>
+                    <li class="social-img"><a href="https://www.instagram.com/megan_e_le/" target="_blank">
+                            <img src="img/contact/instagram.svg" alt="Instagram logo">
+                        </a></li>
+                </ul>
             </div>
             <p>© 2023 Megan Le</p>
         </div>

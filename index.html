@@ -20,10 +20,10 @@
 
 <body>
     <header>
-        <div>
-            <img src="img/logotype_web_100px.png" alt="Megan Le">
+        <div class="container">
+            <img class="logo-img" src="img/logotype_web_100px.png" alt="logo">
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -34,8 +34,8 @@
 
     <main>
         <section id="index">
-            <div>
-                <div>
+            <div id="hero">
+                <div class="container">
                     <h1>Hi! I'm Megan Le. <br>
                         <span>A UX designer based in the Midwest.</span>
                     </h1>
@@ -48,10 +48,10 @@
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div id="work">
+                <div class="container">
                     <h2>Projects</h2>
-                    <div><!--open row that holds (2) columns for project-->
+                    <div class="row"><!--open row that holds (2) columns for project-->
                         <div><!--open first column (use for image)-->
                             <picture>
                                 <source srcset="img/moneymerge/MoneyMerge-Cover_600px.png" (max-width:767px)>
@@ -70,7 +70,7 @@
                         </div><!--end second column-->
                     </div><!--end row that holds (2 columns) for project-->
 
-                    <div><!--open row that holds (2) columns for project-->
+                    <div class="row"><!--open row that holds (2) columns for project-->
                         <div><!--open first column (use for image)-->
                             <picture>
                                 <source srcset="img/feeding-america/FeedingAmerica-Cover_600px.png" (max-width:767px)>
@@ -93,8 +93,8 @@
         </section>
     </main>
 
-    <footer id="contact" class="contact footer-background">
-        <div>
+    <footer>
+        <div id="contact" class="container">
             <h2>Get in Touch</h2>
             <p>
                 Do you like my work and want to discuss opportunities? Let's chat!
@@ -102,16 +102,18 @@
             <div>
                 <a href="mailto:meganleart@gmail.com" class="button contact">Email Me</a>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
-                    <img src="img/contact/linkedin-fill.svg" alt="LinkedIn logo" width="32px" height="32px">
-                </a>
-                <a href="https://www.behance.net/meganle" target="_blank">
-                    <img src="img/contact/behance.svg" alt="Behance logo" width="32px" height="32px">
-                </a>
-                <a href="https://www.instagram.com/megan_e_le/" target="_blank">
-                    <img src="img/contact/instagram.svg" alt="Instagram logo" width="32px" height="32px">
-                </a>
+            <div class="socials">
+                <ul>
+                    <li class="social-img"><a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
+                            <img src="img/contact/linkedin-fill.svg" alt="LinkedIn logo">
+                        </a></li>
+                    <li class="social-img"><a href="https://www.behance.net/meganle" target="_blank">
+                            <img src="img/contact/behance.svg" alt="Behance logo">
+                        </a></li>
+                    <li class="social-img"><a href="https://www.instagram.com/megan_e_le/" target="_blank">
+                            <img src="img/contact/instagram.svg" alt="Instagram logo">
+                        </a></li>
+                </ul>
             </div>
             <p>© 2023 Megan Le</p>
         </div>

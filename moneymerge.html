@@ -20,10 +20,10 @@
 
 <body>
     <header>
-        <div>
-            <img src="img/logotype_web_100px.png" alt="Megan Le">
+        <div class="container">
+            <img class="logo-img" src="img/logotype_web_100px.png" alt="logo">
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -33,7 +33,7 @@
     </header>
 
     <main>
-        <section id="work">
+        <section class="container">
             <div>
                 <div>
                     <h1>MoneyMerge</h1>
@@ -106,15 +106,8 @@
             <div> <!--Process-->
                 <div> <!--Intro section-->
                     <h2>My Process</h2>
-                    <div>
-                        <picture>
-                            <source srcset="img/moneymerge/MoneyMerge-Cover_600px.png" (max-width:767px)>
-                            <img src="img/moneymerge/MoneyMerge-Cover_1200px.png"
-                                alt="MoneyMerge, an all-in-one financial app with image of a phone screen">
-                        </picture>
-                    </div>
                 </div>
-                <div> <!--Reseach section-->
+                <div> <!--Research section-->
                     <div>
                         <h3>Research</h3>
                         <p>
@@ -140,7 +133,7 @@
                                 </picture>
                                 <h5>Intuit Mint</h5>
                             </div>
-                            <div>
+                            <div class="row">
                                 <div>
                                     <h6>Strengths:</h6>
                                     <ul>
@@ -170,7 +163,7 @@
                                 </picture>
                                 <h5>PayPal</h5>
                             </div>
-                            <div>
+                            <div class="row">
                                 <div>
                                     <h6>Strengths:</h6>
                                     <ul>
@@ -206,7 +199,7 @@
                                     respondents from various backgrounds.
                                 </p>
                             </div>
-                            <div>
+                            <div class="row">
                                 <h5>Key Survey Insights</h5>
                                 <div>
                                     <picture>
@@ -329,8 +322,8 @@
                         </p>
                     </div>
                     <!--Insert video?-->
-                    <iframe src="https://player.vimeo.com/video/824586978?h=c0c2e292d1" width="640" height="204"
-                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/824586978?h=c0c2e292d1" frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 </div> <!--End wireframe section-->
                 <div> <!--Design section-->
                     <div>
@@ -469,7 +462,7 @@
                         <div>
                             <h3>Key Learnings</h3>
                         </div>
-                        <div>
+                        <div class="row">
                             <div>
                                 <h4>Design, test, repat</h4>
                                 <p>
@@ -503,8 +496,8 @@
         </section>
     </main>
 
-    <footer id="contact" class="contact footer-background">
-        <div>
+    <footer>
+        <div id="contact" class="container">
             <h2>Get in Touch</h2>
             <p>
                 Do you like my work and want to discuss opportunities? Let's chat!
@@ -512,16 +505,18 @@
             <div>
                 <a href="mailto:meganleart@gmail.com" class="button contact">Email Me</a>
             </div>
-            <div>
-                <a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
-                    <img src="img/contact/linkedin-fill.svg" alt="LinkedIn logo" width="32px" height="32px">
-                </a>
-                <a href="https://www.behance.net/meganle" target="_blank">
-                    <img src="img/contact/behance.svg" alt="Behance logo" width="32px" height="32px">
-                </a>
-                <a href="https://www.instagram.com/megan_e_le/" target="_blank">
-                    <img src="img/contact/instagram.svg" alt="Instagram logo" width="32px" height="32px">
-                </a>
+            <div class="socials">
+                <ul>
+                    <li class="social-img"><a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
+                            <img src="img/contact/linkedin-fill.svg" alt="LinkedIn logo">
+                        </a></li>
+                    <li class="social-img"><a href="https://www.behance.net/meganle" target="_blank">
+                            <img src="img/contact/behance.svg" alt="Behance logo">
+                        </a></li>
+                    <li class="social-img"><a href="https://www.instagram.com/megan_e_le/" target="_blank">
+                            <img src="img/contact/instagram.svg" alt="Instagram logo">
+                        </a></li>
+                </ul>
             </div>
             <p>© 2023 Megan Le</p>
         </div>
