@@ -51,7 +51,7 @@ img {
 }
 
 .social-img {
-  width: 35px;
+  width: 40px;
 }
 
 h1,
@@ -251,16 +251,14 @@ nav > ul > li > a:active {
   text-decoration: none;
 }
 
-.socials {
-  display: inline-block;
-  width: 100%;
+.space-evenly > div {
+  padding: 5px;
 }
 
-.socials > ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.socials > ul > li {
-  display: inline-block;
+.space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  width: 225px;
+  margin: auto;
+  padding: 10px;
 }
