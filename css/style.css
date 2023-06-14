@@ -117,6 +117,7 @@ p {
 a {
   font-size: 'Nunito Sans';
   color: #6399c2;
+  transition: 0.2s opacity;
 }
 
 a:hover {
@@ -151,6 +152,7 @@ a:focus {
 
 .button:hover {
   text-decoration: underline;
+  opacity: 0.8;
 }
 
 .button.contact {
@@ -163,6 +165,7 @@ a:focus {
   border: 2px solid #6399c2;
   padding: 0.5em 1em;
   margin: 1em;
+  transition: 0.2s opacity;
 }
 
 .button.contact:hover {
@@ -180,6 +183,12 @@ a:focus {
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
 }
 
 #index {
@@ -261,4 +270,126 @@ nav > ul > li > a:active {
   width: 225px;
   margin: auto;
   padding: 10px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 25px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  .col-md-7 {
+    width: 60%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-5 {
+    width: 40%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+  #index h3 {
+    margin-top: 0;
+  }
+
+  #about h2 {
+    margin-top: 0;
+  }
+
+  #about h3 {
+    margin-top: 0;
+  }
+
+  #project h2 {
+    margin-top: 0;
+  }
+
+  #project h3 {
+    margin-top: 0;
+  }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 22px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+@keyframes item-move {
+  from { transform: translate(0, 15px); }
+  to { transform: translate(0, 0); }
+}
+
+.item-move {
+  animation-duration: 5s;
+  animation-name: item-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes checklist-move {
+  from { transform: translate(-15px, 0); }
+  to { transform: translate(0, 0); }
+}
+
+.checklist-move {
+  animation-duration: 3s;
+  animation-name: checklist-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
