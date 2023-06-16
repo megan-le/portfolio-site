@@ -54,6 +54,13 @@ img {
   width: 40px;
 }
 
+.brand-logo {
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1,
 h2,
 h3,
