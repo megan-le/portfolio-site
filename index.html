@@ -21,14 +21,17 @@
 <body>
     <header>
         <div class="container">
-            <img class="logo-img" src="img/logotype_web_100px.png" alt="logo">
+            <div class="navtoggle" id="myNavtoggle">
+            <img class="logo-img" src="img/logotype-transparent.png" alt="logo">
             <nav>
                 <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a onclick="menuToggle()" href="#contact">Contact</a></li>
+                    <li><a href="javascript:void0;" class="icon" onclick="menuToggle()">   <img class="menu-img" src="img/hamburger-menu.png" alt="hamburger menu"></a></li>
                 </ul>
             </nav>
+            </div>
         </div>
     </header>
 
@@ -137,7 +140,8 @@
             <p>© 2023 Megan Le</p>
         </div>
     </footer>
-<script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

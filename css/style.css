@@ -9,6 +9,10 @@ Black: #221d23
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
   font-family: 'Raleway', sans-serif;
@@ -20,7 +24,6 @@ body {
 
 header {
   padding: 0.625em;
-  text-align: center;
   background-color: white;
   position: relative;
   border: solid #bdbdbd 0;
@@ -47,7 +50,12 @@ img {
 
 .logo-img {
   width: 100px;
-  max-width: 250px;
+  max-width: 150px;
+}
+
+.menu-img {
+  width: 30px;
+  max-width: 30px;
 }
 
 .social-img {
@@ -234,18 +242,11 @@ a:focus {
   padding-left: 125px;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
+  text-align: center;
 }
 
 nav > ul > li > a {
@@ -269,6 +270,42 @@ nav > ul > li > a:hover {
 nav > ul > li > a:active {
   color: #6399c2;
   text-decoration: none;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px;
+  border-top-color: #6399c2;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 
 .space-evenly > div {
@@ -296,6 +333,22 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 25px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   body {
