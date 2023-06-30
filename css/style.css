@@ -59,7 +59,12 @@ img {
 }
 
 .social-img {
-  width: 40px;
+  width: 45px;
+}
+
+.social-img:hover {
+  transform: translateY(-10px);
+  transition: smooth;
 }
 
 .brand-logo {
@@ -107,6 +112,7 @@ h5 {
   font-weight: 600;
   line-height: 1;
   color: #221d23;
+  padding-top: 15px;
 }
 
 h6 {
@@ -190,6 +196,16 @@ a:focus {
   opacity: 100;
 }
 
+.comingsoon {
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+  color: #6399c2;
+  margin: 0;
+}
+
 /* layout styling */
 
 .container {
@@ -224,6 +240,14 @@ a:focus {
 #about {
   max-width: 1200px;
   margin: auto;
+}
+
+#about img {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #hero {
@@ -359,6 +383,10 @@ Medium devices (640px and larger)
     display: block;
   }
 
+  .col-md-8 {
+    width: 70%;
+  }
+
   .col-md-7 {
     width: 60%;
   }
@@ -371,6 +399,15 @@ Medium devices (640px and larger)
     width: 40%;
   }
 
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-md-3 {
+    width: 30%;
+    padding: 0;
+  }
+
   [class*="col-"] {
     float: left;
     padding: 10px;
@@ -381,13 +418,13 @@ Medium devices (640px and larger)
   }
 
   #about h1 {
-    text-align: center;
+    text-align: left;
     padding-left: 75px;
     padding-right: 75px;
   }
 
   #about h2 {
-    margin-top: 0;
+    margin-top: 20px;
     text-align: center;
     padding-left: 75px;
     padding-right: 75px;
@@ -414,13 +451,6 @@ Medium devices (640px and larger)
     padding-right: 75px;
   }
 
-  #about img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
   #project h2 {
     margin-top: 0;
   }
@@ -444,24 +474,29 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 
+  .col-lg-8 {
+    width: 70%;
+  }
+
   .col-lg-7 {
     width: 60%;
-  }
-
-  .col-lg-5 {
-    width: 40%;
-  }
-
-  .col-md-4 {
-    width: 33.33%;
   }
 
   .col-lg-6 {
     width: 50%;
   }
 
-  .col-lg-4 {
-    width: 33.33%;
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  #about img {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 50px;
+    width: 75%;
   }
 }
 
