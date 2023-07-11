@@ -64,11 +64,17 @@ img {
 
 .social-img:hover {
   transform: translateY(-10px);
-  transition: smooth;
 }
 
 .brand-logo {
-  width: 50px;
+  width: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.survey-graph {
+  width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -123,6 +129,22 @@ h6 {
   color: #221d23;
 }
 
+.poppinsone {
+  font-family: 'Nunito Sans';
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  color: #221d23;
+}
+
+.poppinstwo {
+  font-family: 'Nunito Sans';
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1;
+  color: #221d23;
+}
+
 p {
   font-family: 'Nunito Sans';
   font-size: 1em;
@@ -136,24 +158,24 @@ p {
 }
 
 a {
-  font-size: 'Nunito Sans';
-  color: #6399c2;
+  font-family: 'Nunito Sans';
+  color: #5b93bf;
   transition: 0.2s opacity;
 }
 
 a:hover {
-  font-size: 'Nunito Sans';
+  font-family: 'Nunito Sans';
   color: #65488b;
   text-decoration: underline;
 }
 
 a:visited {
-  font-size: 'Nunito Sans';
-  color: #6399c2;
+  font-family: 'Nunito Sans';
+  color: #5b93bf;
 }
 
 a:active {
-  font-size: 'Nunito Sans';
+  font-family: 'Nunito Sans';
   color: #422f5b;
 }
 
@@ -163,9 +185,10 @@ a:focus {
 }
 
 .button {
+  color: #5b93bf;
   font-family: 'Nunito Sans';
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.15em;
   text-decoration: none;
   transition: 0.2s opacity;
   display: inline-block;
@@ -179,11 +202,11 @@ a:focus {
 .button.contact {
   display: inline-block;
   background-color: transparent;
-  color: #6399c2;
+  color: #5b93bf;
   font-family: 'Nunito Sans';
   font-weight: 600;
   text-decoration: none;
-  border: 2px solid #6399c2;
+  border: 2px solid #5b93bf;
   padding: 0.5em 1em;
   margin: 1em;
   transition: 0.2s opacity;
@@ -191,18 +214,46 @@ a:focus {
 
 .button.contact:hover {
   display: inline-block;
-  background-color: #6399c2;
+  background-color: #5b93bf;
   color: white;
-  opacity: 100;
+}
+
+.fab-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.iconbutton {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #5b93bf;
+  box-shadow: 1px 2px 5px #aaa;
+}
+
+.fabbutton {
+  width: 60px;
+  height: 60px;
+  background: #5b93bf;
+}
+
+.iconbutton i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
 }
 
 .comingsoon {
   font-family: 'Nunito Sans';
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.15em;
   text-decoration: none;
   display: inline-block;
-  color: #6399c2;
+  color: #5b93bf;
   margin: 0;
 }
 
@@ -348,6 +399,12 @@ nav > ul > li > a:active {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  .container {
+    max-width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -493,10 +550,9 @@ Large devices (1024px or larger)
   #about img {
     display: flex;
     position: relative;
-    margin-left: auto;
-    margin-right: 0;
-    margin-top: 50px;
-    width: 75%;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
   }
 }
 

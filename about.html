@@ -1,162 +1,192 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="author" content="Megan Le">
-    <meta name="Description"
-        content="Megan Le is a UX designer dedicated to crafting meaningful experiences that resonate with users. Drawing from her background in graphic design and photography, she brings a unique blend of creative intuition and rational design thinking to her work.">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta
+      name="Description"
+      content="Megan Le is a UX designer dedicated to crafting meaningful experiences that resonate with users. Drawing from her background in graphic design and photography, she brings a unique blend of creative intuition and rational design thinking to her work."
+    >
     <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,500;1,600&display=swap"
-        rel="stylesheet">
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    >
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,500;1,600&display=swap"
+      rel="stylesheet"
+    >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Megan Le | About</title>
     <link href="img/favicon.ico.png" rel="shortcut icon">
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <div class="navtoggle" id="myNavtoggle">
-            <img class="logo-img" src="img/logotype-transparent.png" alt="logo">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a onclick="menuToggle()" href="#contact">Contact</a></li>
-                    <li><a href="javascript:void0;" class="icon" onclick="menuToggle()">   <img class="menu-img" src="img/hamburger-menu.png" alt="hamburger menu"></a></li>
-                </ul>
-            </nav>
-            </div>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="index.html"
+            ><img
+              class="logo-img"
+              src="img/logotype-transparent.png"
+              alt="logo"
+            ></a>
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li>
+                <a href="files/Megan-Le-Resume.pdf" target="_blank">Resume</a>
+              </li>
+              <li><a onclick="menuToggle()" href="#contact">Contact</a></li>
+              <li>
+                <a href="javascript:void0;" class="icon" onclick="menuToggle()">
+                  <img
+                    class="menu-img"
+                    src="img/hamburger-menu.png"
+                    alt="hamburger menu"
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
 
     <main>
-        <section id="about" class="container">
+      <section id="about" class="container">
+        <div>
+          <div class="row">
+            <!--row one-->
+            <div class="column col-lg-5">
+              <!--column one, left-->
+              <picture>
+                <source srcset="img/about-page/Headshot_1200px.png">
+                <img
+                  src="img/about-page/Headshot_1200px.png"
+                  alt="Girl standing outdoors and smiling at the camera. She has brown curly hair and brown eyes."
+                >
+              </picture>
+            </div>
+            <div class="column col-lg-7">
+              <!--column two, right-->
+              <h1>About Megan Le</h1>
+              <p>
+                I'm a dedicated UX designer with a background in graphic design
+                and photography, blending creative intuition and rational design
+                thinking to craft meaningful user experiences. My time at
+                Bradley University immersed me in the world of design and fine
+                art, cultivating an appreciation for the intersection of
+                artistry and communication. To explore the digital realm
+                further, I studied UX design and frontend development with
+                CareerFoundry in September 2022.
+              </p>
+              <p>
+                When I'm not immersed in design, I indulge in my passions, such
+                as reading, capturing moments with my camera, and nurturing my
+                indoor plants. Currently, I'm actively seeking a remote,
+                full-time role with a company specializing in financial services
+                or a service-oriented industry. By combining my expertise and
+                passion, I believe we can create impactful and meaningful
+                solutions. Let's connect and bring our creative ideas to life!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row">
             <div>
-                <div class="row"> <!--row one-->
-                    <div class="column col-md-6 col-lg-6"> <!--column one, left-->
-                        <picture>
-                            <source srcset="img/about-page/Headshot_1200px.png" (max-width:767px)>
-                            <img src="img/about-page/Headshot_1200px.png"
-                                alt="Girl standing outdoors and smiling at the camera. She has brown curly hair and brown eyes.">
-                        </picture>
-                    </div>
-                    <div class="column col-md-6 col-lg-6"> <!--column two, right-->
-                        <h1>About Megan Le</h1>
-                        <p>
-                            I'm a UX designer dedicated to crafting meaningful experiences that resonate with users.
-                            Drawing from my background in graphic design and photography, I bring a unique blend of
-                            creative intuition and rational design thinking to my work.
-                        </p>
-                        <p>
-                            During my years at Bradley University, I immersed myself in the world of design and fine
-                            art. This experience cultivated a deep appreciation for the intersection of artistry and
-                            communication. Eager to explore the digital realm further, I embarked on a new journey,
-                            studying UX design and frontend development with CareerFoundry in September 2022.
-                        </p>
-                        <p>
-                            When I'm not immersed in design, you'll often find me indulging in my other passions. I
-                            enjoy losing myself in the pages of a captivating book, capturing moments through the
-                            lens
-                            of my camera, and nurturing my indoor plants.
-                        </p>
-                        <p>
-                            Currently, I'm on the lookout for a remote, full-time role with a company specializing
-                            in
-                            financial services or a service-oriented industry. I believe that combining my expertise
-                            and
-                            passion can lead to meaningful and impactful solutions. If you're interested in
-                            exploring
-                            possibilities or collaborating on exciting projects, let's connect and bring our
-                            creative
-                            ideas to life!
-                        </p>
-                        <a href="files/Megan-Le-Resume.pdf" class="button" target="_blank">View Resume</a>
-                    </div>
-                </div>
+              <hr>
+              <h2>Skills &amp; Tools</h2>
             </div>
             <div>
-                <div class="row">
-                    <div>
-                        <hr>
-                        <h2>Skills &amp; Tools</h2>
-                    </div>
-                    <div> <!--row for columns-->
-                        <div class="column col-md-6 col-lg-7"> <!--column one, left-->
-                            <h3>Skills</h3>
-                            <ul>
-                                <li>Competitive Analysis</li>
-                                <li>User Research</li>
-                                <li>User Personas</li>
-                                <li>Journey Maps</li>
-                                <li>Task Analyses &amp; User Flows</li>
-                                <li>Information Architecture</li>
-                                <li>Wireframing &amp; Prototyping</li>
-                                <li>Branding &amp; Design systems</li>
-                                <li>Usability Testing</li>
-                                <li>HTML/CSS/JavaScript</li>
-                            </ul>
-                        </div>
-                        <div class="column col-md-6 col-lg-5"> <!--column two, right-->
-                            <h3>Tools</h3>
+              <!--row for columns-->
+              <div class="column col-md-6 col-lg-7">
+                <!--column one, left-->
+                <h3>Skills</h3>
+                <ul>
+                  <li>Competitive Analysis</li>
+                  <li>User Research</li>
+                  <li>User Personas</li>
+                  <li>Journey Maps</li>
+                  <li>Task Analyses &amp; User Flows</li>
+                  <li>Information Architecture</li>
+                  <li>Wireframing &amp; Prototyping</li>
+                  <li>Branding &amp; Design systems</li>
+                  <li>Usability Testing</li>
+                  <li>HTML/CSS/JavaScript</li>
+                </ul>
+              </div>
+              <div class="column col-md-6 col-lg-5">
+                <!--column two, right-->
+                <h3>Tools</h3>
 
-                            <ul>
-                                <li>Figma</li>
-                                <li>Adobe XD</li>
-                                <li>Adobe Illustrator</li>
-                                <li>Adobe InDesign</li>
-                                <li>Adobe Photoshop</li>
-                                <li>Adobe Lightroom</li>
-                                <li>Miro</li>
-                                <li>Marvel</li>
-                                <li>Optimal Workshop</li>
-                                <li>UserCrowd</li>
-                                <li>Google Workspace</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <ul>
+                  <li>Figma</li>
+                  <li>Adobe XD</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Adobe InDesign</li>
+                  <li>Adobe Photoshop</li>
+                  <li>Adobe Lightroom</li>
+                  <li>Miro</li>
+                  <li>Marvel</li>
+                  <li>Optimal Workshop</li>
+                  <li>UserCrowd</li>
+                  <li>Google Workspace</li>
+                </ul>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div id="contact" class="container">
-            <h2>Get in Touch</h2>
-            <p>
-                Do you like my work and want to discuss opportunities? Let's chat!
-            </p>
-            <div>
-                <a href="mailto:meganleart@gmail.com" class="button contact">Email Me</a>
-            </div>
+      <div id="contact" class="container">
+        <h2>Get in Touch</h2>
+        <p>
+          Do you like my work and want to discuss opportunities? Let's chat!
+        </p>
+        <div>
+          <a href="mailto:meganleart@gmail.com" class="button contact"
+            >Email Me</a
+          >
+        </div>
         <div class="space-evenly">
-            <div class="social-img">
-                <a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
-                    <img src="img/contact/linkedin-fill.svg" alt="LinkedIn logo">
-                </a>
-            </div>
-            <div class="social-img">
-                <a href="https://www.behance.net/meganle" target="_blank">
-                    <img src="img/contact/behance.svg" alt="Behance logo">
-                </a>
-            </div>
-            <div class="social-img">
-                <a href="https://www.instagram.com/megan_e_le/" target="_blank">
-                    <img src="img/contact/instagram.svg" alt="Instagram logo">
-                </a>
-            </div>
+          <div class="social-img">
+            <a href="https://www.linkedin.com/in/megan-e-le" target="_blank">
+              <img src="img/contact/linkedin-fill.svg" alt="LinkedIn logo">
+            </a>
+          </div>
+          <div class="social-img">
+            <a href="https://www.behance.net/meganle" target="_blank">
+              <img src="img/contact/behance.svg" alt="Behance logo">
+            </a>
+          </div>
+          <div class="social-img">
+            <a href="https://www.instagram.com/megan_e_le/" target="_blank">
+              <img src="img/contact/instagram.svg" alt="Instagram logo">
+            </a>
+          </div>
         </div>
-            <p><small>© 2023 Megan Le</small></p>
-        </div>
+        <p><small>© 2023 Megan Le</small></p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!">
+            </a>
+        </p>
+      </div>
     </footer>
-<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
