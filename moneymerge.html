@@ -19,20 +19,24 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Megan Le | MoneyMerge</title>
-    <link href="img/favicon.ico.png" rel="shortcut icon">
+    <link href="img/favicon.png" rel="shortcut icon">
 </head>
 
 <body>
     <header>
         <div class="container">
             <div class="navtoggle" id="myNavtoggle">
-                <a href="index.html"><img class="logo-img" src="img/logotype-transparent.png" alt="logo"></a>
+                <a href="index.html"
+                ><img class="logo-img"
+                src="img/logotype-transparent.png"
+                alt="logo"
+                ></a>
                 <nav>
                     <ul class="navigation">
                         <li><a href="index.html">Work</a></li>
                         <li><a href="about.html">About</a></li>
                         <li>
-                            <a href="files/Megan-Le-Resume.pdf" target="_blank">Resume</a>
+                            <a href="https://indd.adobe.com/view/0ea5a475-80b7-4a12-8f24-dbd4db510ff5" target="_blank">Resume</a>
                         </li>
                         <li><a onclick="menuToggle()" href="#contact">Contact</a></li>
                         <li>
@@ -48,119 +52,114 @@
     <main>
         <section id="project" class="container">
             <div>
+                <!--Intro-->
                 <div>
-                    <h1>MoneyMerge</h1>
-                    <picture>
-                        <source srcset="img/moneymerge/MoneyMerge-Cover_1200px.png" media="(max-width:767px)">
-                        <img src="img/moneymerge/MoneyMerge-Cover_1920px.png"
-                            alt="MoneyMerge, an all-in-one financial app with image of a phone screen">
-                    </picture>
-                    <p>
-                        MoneyMerge is a financial app that enables users to centralize
-                        their financial accounts and streamline transactions.
-                    </p>
+                    <div>
+                        <h1>MoneyMerge</h1>
+                        <p style="text-align: center; margin-bottom: 40px">
+                            MoneyMerge is a financial app that enables users to centralize
+                            their financial accounts and streamline transactions.
+                        </p>
+                        <picture>
+                            <source srcset="img/moneymerge/moneymerge-cover_1200px.png" media="(max-width:767px)">
+                            <img src="img/moneymerge/moneymerge-cover_1920px.png"
+                                alt="MoneyMerge, an all-in-one financial app with image of a phone screen">
+                        </picture>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="column col-md-4 col-lg-4">
+                        <h5>Tools</h5>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Adobe Fresco</li>
+                            <li>Google Forms</li>
+                            <li>Miro</li>
+                            <li>Optimal Workshop</li>
+                            <li>UserCrowd</li>
+                        </ul>
+                    </div>
+                    <div class="column col-md-4 col-lg-4">
+                        <h5>Role</h5>
+                        <p>Research &amp; UI/UX Design</p>
+                    </div>
+                    <div class="column col-md-4 col-lg-4">
+                        <h5>Timeline</h5>
+                        <p>November 2022 - April 2023</p>
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="center">
+                        <h3 class="center project-container-small" style="margin-top: 25px;">Problem Statement</h3>
+                        <p>
+                            Financial app users struggle with managing their money due to the
+                            scattered approach of accessing multiple sites for account
+                            management. Users need a centralized platform that can consolidate
+                            all their financial accounts, enabling them to simplify and
+                            efficiently manage their money.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4>Hypothesis</h4>
+                            <p>
+                                The implementation of a secure tool that enables users to link
+                                their financial accounts and cards, facilitating transactions and
+                                providing centralized financial management, will lead to improved
+                                efficiency and convenience in managing personal finances.
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>Features</h4>
+                            <ul>
+                                <li>View account balances &amp; transactions</li>
+                                <li>Create personalized budgets</li>
+                                <li>Send &amp; request money</li>
+                                <li>Scan to make in-store payments</li>
+                                <li>View recurring payments &amp; subscriptions</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="column col-md-4 col-lg-4">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Figma</li>
-                        <li>Adobe Fresco</li>
-                        <li>Google Forms</li>
-                        <li>Miro</li>
-                        <li>Optimal Workshop</li>
-                        <li>UserCrowd</li>
-                    </ul>
-                </div>
-                <div class="column col-md-4 col-lg-4">
-                    <h3>Role</h3>
-                    <p>Research &amp; UI/UX Design</p>
-                </div>
-                <div class="column col-md-4 col-lg-4">
-                    <h3>Timeline</h3>
-                    <p>November 2022 - April 2023</p>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <hr>
-                </div>
-                <div>
-                    <h3>Problem Statement</h3>
-                    <p>
-                        Financial app users struggle with managing their money due to the
-                        scattered approach of accessing multiple sites for account
-                        management. Users need a centralized platform that can consolidate
-                        all their financial accounts, enabling them to simplify and
-                        efficiently manage their money.
-                    </p>
-                </div>
-                <div>
-                    <h3>Hypothesis</h3>
-                    <p>
-                        The implementation of a secure tool that enables users to link
-                        their financial accounts and cards, facilitating transactions and
-                        providing centralized financial management, will lead to improved
-                        efficiency and convenience in managing personal finances.
-                    </p>
-                </div>
-                <div>
-                    <h3>Features</h3>
-                    <ul>
-                        <li>View account balances &amp; transactions</li>
-                        <li>Create personalized budgets</li>
-                        <li>Send &amp; request money</li>
-                        <li>Scan to make in-store payments</li>
-                        <li>View recurring payments &amp; subscriptions</li>
-                    </ul>
-                </div>
-            </div>
+            <!--End intro-->
 
             <div>
                 <!--Process-->
                 <div>
-                    <!--Intro section-->
-                    <hr>
-                    <h2>My Process</h2>
-                </div>
-                <div>
-                    <!--Research section-->
-                    <div>
-                        <h3>Research</h3>
-                        <p>
-                            Gaining a deep understanding of users' needs and experiences
+                    <!--Competitive analysis section-->
+                    <div class="project-container-large">
+                        <h2>Competitive Analysis</h2>
+                        <p style="padding-left: 20px; padding-right: 20px;">
+                            Learning from established companies already tackling the problem
                         </p>
                     </div>
-                    <div>
-                        <!--Competitive analysis subsection-->
-                        <div>
-                            <h4>Competitive Analysis</h4>
-                            <p>
-                                Learning from established companies already tackling the
-                                problem I researched Intuit Mint and PayPal, creating
-                                comprehensive competitive and marketing profiles, as well as
-                                SWOT analyses. Additionally, I performed a UX-focused
-                                competitive analysis on Intuit Mint, where I identified any
-                                ineffective app elements.
-                            </p>
-                        </div>
-                        <div>
+                    <div class="center">
+                        <p>
+                            I researched Intuit Mint and PayPal, creating
+                            comprehensive competitive and marketing profiles, as well as
+                            SWOT analyses. Additionally, I performed a UX-focused
+                            competitive analysis on Intuit Mint, where I identified any
+                            ineffective app elements.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
                             <!--Intuit mint subsection-->
                             <div>
                                 <picture>
-                                    <source srcset="img/moneymerge/research/Logos_Mint_600px.png"
+                                    <source srcset="img/moneymerge/research/logos_mint_600px.png"
                                         media="(max-width:767px)">
-                                    <img src="img/moneymerge/research/Logos_Mint_1200px.png" alt="Intuit Mint logo"
+                                    <img src="img/moneymerge/research/logos_mint_1200px.png" alt="Intuit Mint logo"
                                         class="brand-logo">
                                 </picture>
-                                <h5 class="center">Intuit Mint</h5>
+                                <h4 class="center" style="padding-top: 0;">Intuit Mint</h4>
                             </div>
                             <div class="row">
                                 <div class="column col-md-6 col-lg-6">
-                                    <h6 class="center">Strengths:</h6>
+                                    <h5 class="center">Strengths</h5>
                                     <ul>
                                         <li>Robust algorithm and data security measures</li>
                                         <li>Customizable and editable options for users</li>
@@ -168,7 +167,7 @@
                                     </ul>
                                 </div>
                                 <div class="column col-md-6 col-lg-6">
-                                    <h6 class="center">Weaknesses:</h6>
+                                    <h5 class="center">Weaknesses</h5>
                                     <ul>
                                         <li>
                                             Ads are intrusive, repetitive, and reappear shortly
@@ -183,20 +182,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div class="col-lg-6">
                             <!--PayPal subsection-->
                             <div>
                                 <picture>
-                                    <source srcset="img/moneymerge/research/Logos_PayPal_600px.png"
+                                    <source srcset="img/moneymerge/research/logos_paypal_600px.png"
                                         media="(max-width:767px)">
-                                    <img src="img/moneymerge/research/Logos_PayPal_1200px.png" alt="PayPal logo"
+                                    <img src="img/moneymerge/research/logos_paypal_1200px.png" alt="PayPal logo"
                                         class="brand-logo">
                                 </picture>
-                                <h5 class="center">PayPal</h5>
+                                <h4 class="center" style="padding-top: 0;">PayPal</h4>
                             </div>
                             <div class="row">
                                 <div class="column col-md-6 col-lg-6">
-                                    <h6 class="center">Strengths:</h6>
+                                    <h5 class="center">Strengths</h5>
                                     <ul>
                                         <li>
                                             Allows users to pay online and in-store with a QR code
@@ -207,7 +206,7 @@
                                     </ul>
                                 </div>
                                 <div class="column col-md-6 col-lg-6">
-                                    <h6 class="center">Weaknesses:</h6>
+                                    <h5 class="center">Weaknesses</h5>
                                     <ul>
                                         <li>
                                             High fees for processing invoices and sending personal
@@ -221,17 +220,19 @@
                             </div>
                         </div>
                     </div>
-                    <!--End competitive analysis subsection-->
+                </div>
+                    <!--End competitive analysis section-->
+                <div>
+                    <!--User research section-->
                     <div>
-                        <!--User research subsection-->
-                        <div>
-                            <h4>User Research</h4>
-                            <p>
+                        <div class="project-container-large">
+                            <h2>User Research</h2>
+                            <p style="padding-left: 20px; padding-right: 20px;">
                                 Listening to people who are actually experiencing the problem
                             </p>
                         </div>
                         <div>
-                            <div>
+                            <div class="project-container-body">
                                 <p>
                                     I surveyed 46 people who manage their finances, and I
                                     interviewed three survey respondents from various
@@ -239,12 +240,12 @@
                                 </p>
                             </div>
                             <div class="row">
-                                <h5 class="center">Key Survey Insights</h5>
+                                <h3 class="project-container-small">Key Survey Insights</h3>
                                 <div class="column col-md-4 col-lg-4">
                                     <picture>
-                                        <source srcset="img/moneymerge/research/Graphs-Web_A_600px.png"
+                                        <source srcset="img/moneymerge/research/graphs-web_a_600px.png"
                                             media="(max-width:200px)">
-                                        <img src="img/moneymerge/research/Graphs-Web_A_1200px.png"
+                                        <img src="img/moneymerge/research/graphs-web_a_1200px.png"
                                             alt="Donut hole pie chart with 94%"
                                             class="survey-graph">
                                     </picture>
@@ -252,9 +253,9 @@
                                 </div>
                                 <div class="column col-md-4 col-lg-4">
                                     <picture>
-                                        <source srcset="img/moneymerge/research/Graphs-Web_B_600px.png"
+                                        <source srcset="img/moneymerge/research/graphs-web_b_600px.png"
                                             media="(max-width:200px)">
-                                        <img src="img/moneymerge/research/Graphs-Web_B_1200px.png"
+                                        <img src="img/moneymerge/research/graphs-web_b_1200px.png"
                                             alt="Donut hole pie chart with 63%"
                                             class="survey-graph">
                                     </picture>
@@ -264,9 +265,9 @@
                                 </div>
                                 <div class="column col-md-4 col-lg-4">
                                     <picture>
-                                        <source srcset="img/moneymerge/research/Graphs-Web_C_600px.png"
+                                        <source srcset="img/moneymerge/research/graphs-web_c_600px.png"
                                             media="(max-width:200px)">
-                                        <img src="img/moneymerge/research/Graphs-Web_C_1200px.png"
+                                        <img src="img/moneymerge/research/graphs-web_c_1200px.png"
                                             alt="Donut hole pie chart with 89%"
                                             class="survey-graph">
                                     </picture>
@@ -276,81 +277,101 @@
                                 </div>
                             </div>
                             <div>
-                                <h5 class="center">Interview Topics</h5>
-                                <ul>
-                                    <li>Their shopping habits</li>
-                                    <li>Their process of managing finances</li>
-                                    <li>Their budgeting methods</li>
-                                    <li>Their experience with digital wallets</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 class="center">Insights</h4>
-                                <ul>
-                                    <li>Most people shop weekly</li>
-                                    <li>
-                                        Security is of the most importance when using financial
-                                        platforms
-                                    </li>
-                                    <li>People prefer real-time account updates</li>
-                                    <li>Some make peer-to-peer transactions monthly</li>
-                                    <li>
-                                        People use e-wallets because they are secure and easily
-                                        accessible
-                                    </li>
-                                    <li>
-                                        Some people dislike when apps offer no personalization
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h5 class="center">Affinity Map</h5>
-                                <picture>
-                                    <source srcset="img/moneymerge/research/Affinity-Map_600px.png"
-                                        media="(max-width:1200px)">
-                                    <img src="img/moneymerge/research/Affinity-Map_1200px.png"
-                                        alt="Digital sticky notes organized in labeled boxes">
-                                </picture>
+                                <h3 class="project-container-small">Interview Topics</h3>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li>Their shopping habits</li>
+                                            <li>Their process of managing finances</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul>
+                                            <li>Their budgeting methods</li>
+                                            <li>Their experience with digital wallets</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!--End user research subsection-->
                 </div>
-                <!--End research section-->
                 <div>
-                    <!--Ideation section-->
-                    <div>
-                        <h3>Ideation</h3>
-                        <p>Defining solutions and exploring site structure</p>
+                    <!--Insights section-->
+                    <div class="project-container-large">
+                        <h2 style="margin-bottom: 20px;">Insights</h2>
                     </div>
                     <div>
+                        <ul>
+                            <li>Most people shop weekly</li>
+                            <li>
+                                Security is of the most importance when using financial
+                                platforms
+                            </li>
+                            <li>People prefer real-time account updates</li>
+                            <li>Some make peer-to-peer transactions monthly</li>
+                            <li>
+                                People use e-wallets because they are secure and easily
+                                accessible
+                            </li>
+                            <li>
+                                Some people dislike when apps offer no personalization
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="project-container-small">Affinity Map</h3>
+                        <picture>
+                            <source srcset="img/moneymerge/research/affinity-map_1200px.png"
+                                media="(max-width:767px)">
+                            <img src="img/moneymerge/research/affinity-map_1200px.png"
+                                alt="Digital sticky notes organized in labeled boxes">
+                        </picture>
+                    </div>
+                </div>
+                <!--End insights section-->
+                <div>
+                    <!--Ideation section-->
+                    <div class="project-container-large">
+                        <h2>Ideation</h2>
+                        <p style="padding-left: 20px; padding-right: 20px;">Defining solutions and exploring site structure</p>
+                    </div>
+                    <div> <!--User flow subsection-->
                         <div>
-                            <div class="center">
-                                <h4>Michael's User Flow</h4>
-                            </div>
                             <div>
-                                <p>
-                                    User Story: As a planner, I want to create a budget, so that
-                                    I can achieve financial stability.
-                                </p>
+                                <h3 class="project-container-small">Michael's User Flow</h3>
                             </div>
-                            <div>
-                                <p>Success Criteria: Budget is created</p>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p style="font-weight: 600; color: #0063b2; margin-bottom: 0;">
+                                        User Story
+                                    </p>
+                                    <p>
+                                        As a planner, I want to create a budget, so that
+                                        I can achieve financial stability.
+                                    </p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p style="font-weight: 600; color: #0063b2; margin-bottom: 0;">Success Criteria</p>
+                                    <p>
+                                        Budget is created 
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div>
                             <picture>
-                                <source srcset="img/moneymerge/ideation/Budget-User-Flows_600px.png"
+                                <source srcset="img/moneymerge/ideation/budget-user-flows_1200px.png"
                                     media="(max-width:767px)">
-                                <img src="img/moneymerge/ideation/Budget-User-Flows_1200px.png" alt="User flow chart">
+                                <img src="img/moneymerge/ideation/budget-user-flows_1200px.png" alt="User flow chart">
                             </picture>
                         </div>
                     </div>
-                    <div>
+                    <div> <!--Sitemap subsection-->
                         <div>
-                            <h4 class="center">Sitemap</h4>
+                            <h3 class="project-container-small">Sitemap</h3>
                         </div>
-                        <div>
+                        <div class="center" style="margin-bottom: 25px;">
                             <p>
                                 I evaluated the architecture with an open card sort after
                                 creating the initial sitemap. Most of my findings were
@@ -361,8 +382,8 @@
                         </div>
                         <div>
                             <picture>
-                                <source srcset="img/moneymerge/ideation/Sitemap_600px.png" media="(max-width:767px)">
-                                <img src="img/moneymerge/ideation/Sitemap_1200px.png" alt="User flow chart">
+                                <source srcset="img/moneymerge/ideation/sitemap_1200px.png" media="(max-width:767px)">
+                                <img src="img/moneymerge/ideation/sitemap_1200px.png" alt="User flow chart">
                             </picture>
                         </div>
                     </div>
@@ -370,194 +391,196 @@
                 <!--End ideation section-->
                 <div>
                     <!--Wireframe section-->
-                    <div class="center">
-                        <h3>Wireframe</h3>
-                        <p>Turning ideas into something tangible</p>
+                    <div class="project-container-large">
+                        <h2>Wireframe</h2>
+                        <p style="padding-left: 20px; padding-right: 20px;">Turning ideas into something tangible</p>
                     </div>
-                    <!--Insert video?-->
-                    <iframe
+                    <div>
+                        <iframe
                         src="https://player.vimeo.com/video/824586978?h=c0c2e292d1&autoplay=1&loop=1&title=0&byline=0&portrait=0"
                         width="1200" height="383" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-                        allowfullscreen></iframe>
+                        allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
                 <!--End wireframe section-->
                 <div>
                     <!--Design section-->
-                    <div>
-                        <h3>Design</h3>
+                    <div class="project-container-large">
+                        <h2 style="margin-bottom: 20px;">Design</h2>
                     </div>
                     <div>
-                        <h4>Intro Sequence</h4>
-                        <p>
+                        <div>
+                            <h3 class="project-container-small">Intro Sequence</h3>
+                        </div>
+                        <p class="center" style="margin-bottom: 40px;">
                             Familiarize yourself with MoneyMerge by learning about its main
                             features and how it works.
                         </p>
                         <picture>
-                            <source srcset="img/moneymerge/design/01_Intro_600px.png" media="(max-width:1200px)">
-                            <img src="img/moneymerge/design/01_Intro_1200px.png" alt="Three introduction screens">
+                            <source srcset="img/moneymerge/design/01_intro_1200px.png" media="(max-width:767px)">
+                            <img src="img/moneymerge/design/01_intro_1200px.png" alt="Three introduction screens">
                         </picture>
                     </div>
                     <div>
-                        <h4>Sign Up &amp; Log In</h4>
-                        <p>
+                        <h3 class="project-container-small">Sign Up &amp; Log In</h3>
+                        <p class="center" style="margin-bottom: 40px;">
                             As a new user, create an account and verify your phone number,
                             or log in using biometrics.
                         </p>
                         <picture>
-                            <source srcset="img/moneymerge/design/02_SignUp_600px.png" media="(max-width:1200px)">
-                            <img src="img/moneymerge/design/02_SignUp_1200px.png" alt="Three sign up screens">
+                            <source srcset="img/moneymerge/design/02_signup_1200px.png" media="(max-width:767px)">
+                            <img src="img/moneymerge/design/02_signup_1200px.png" alt="Three sign up screens">
                         </picture>
                     </div>
                     <div>
-                        <h4>Overview Tab</h4>
-                        <p>
+                        <h3 class="project-container-small">Overview Tab</h3>
+                        <p class="center" style="margin-bottom: 40px;">
                             Get a quick overview of your account balances, recent
                             transactions, and budget summary.
                         </p>
                         <picture>
-                            <source srcset="img/moneymerge/design/03_Overview_600px.png" media="(max-width:1200px)">
-                            <img src="img/moneymerge/design/03_Overview_1200px.png" alt="Three overview screens">
+                            <source srcset="img/moneymerge/design/03_overview_1200px.png" media="(max-width:767px)">
+                            <img src="img/moneymerge/design/03_overview_1200px.png" alt="Three overview screens">
                         </picture>
                     </div>
                     <div>
-                        <h4>Create a Budget</h4>
-                        <p>
+                        <h3 class="project-container-small">Create a Budget</h3>
+                        <p class="center" style="margin-bottom: 40px;">
                             Create a personalized budget and view insights. Transactions
                             made through linked accounts will automatically be categorized
                             for your budget.
                         </p>
                         <picture>
-                            <source srcset="img/moneymerge/design/04_BudgetForm_600px.png" media="(max-width:1200px)">
-                            <img src="img/moneymerge/design/04_BudgetForm_1200px.png" alt="Three budget form screens">
+                            <source srcset="img/moneymerge/design/04_budgetform_1200px.png" media="(max-width:767px)">
+                            <img src="img/moneymerge/design/04_budgetform_1200px.png" alt="Three budget form screens">
                         </picture>
                     </div>
                     <div>
-                        <h4>Wallet Tab</h4>
-                        <p>
+                        <h3 class="project-container-small">Wallet Tab</h3>
+                        <p class="center" style="margin-bottom: 40px;">
                             View your wallet to make in-store transactions by scanning the
                             QR code. Get a calendar overview of your upcoming recurring
                             payments.
                         </p>
                         <picture>
-                            <source srcset="img/moneymerge/design/05_Wallet_600px.png" media="(max-width:1200px)">
-                            <img src="img/moneymerge/design/05_Wallet_1200px.png"
+                            <source srcset="img/moneymerge/design/05_wallet_1200px.png" media="(max-width:767px)">
+                            <img src="img/moneymerge/design/05_wallet_1200px.png"
                                 alt="Three screens from the wallet tab">
                         </picture>
                     </div>
                     <div>
-                        <h4>Add an Account</h4>
-                        <p>
+                        <h3 class="project-container-small">Add an Account</h3>
+                        <p class="center" style="margin-bottom: 40px;">
                             Find your bank, securely log in, and get a virtual card to make
                             payments.
                         </p>
                         <picture>
-                            <source srcset="img/moneymerge/design/06_AccountForm_600px.png"
-                                media="(max-width:1200px)">
-                            <img src="img/moneymerge/design/06_AccountForm_1200px.png"
+                            <source srcset="img/moneymerge/design/06_accountform_1200px.png"
+                                media="(max-width:767px)">
+                            <img src="img/moneymerge/design/06_accountform_1200px.png"
                                 alt="Three account form screens">
                         </picture>
                     </div>
                     <div>
-                        <h4>Make a Payment</h4>
-                        <p>Send or request money and set up recurring payments.</p>
+                        <h3 class="project-container-small">Make a Payment</h3>
+                        <p class="center" style="margin-bottom: 40px;">Send or request money and set up recurring payments.</p>
                         <picture>
-                            <source srcset="img/moneymerge/design/07_PaymentForm_600px.png"
-                                media="(max-width:1200px)">
-                            <img src="img/moneymerge/design/07_PaymentForm_1200px.png"
+                            <source srcset="img/moneymerge/design/07_paymentform_1200px.png"
+                                media="(max-width:767px)">
+                            <img src="img/moneymerge/design/07_paymentform_1200px.png"
                                 alt="Three payment form screens">
                         </picture>
-                    </div>
-                    <div>
-                        <div>
-                            <h4>Visual System</h4>
-                        </div>
-                        <div>
-                            <h5>Colors</h5>
-                            <picture>
-                                <source srcset="img/moneymerge/design/08_Colors_600px.png" media="(max-width:1200px)">
-                                <img src="img/moneymerge/design/08_Colors_1200px.png" alt="Eight-color color palette">
-                            </picture>
-                        </div>
-                        <div>
-                            <h5>Typography</h5>
-                            <div>
-                                <p class="poppinsone">Poppins</p>
-                                <p>Bold, semibold, and medium used for headers.</p>
-                            </div>
-                            <div>
-                                <p class="poppinstwo">Poppins</p>
-                                <p>Medium and regular used for body text.</p>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>Iconography</h5>
-                            <picture>
-                                <source srcset="img/moneymerge/design/09_Icons_600px.png" media="(max-width:1200px)">
-                                <img src="img/moneymerge/design/09_Icons_1200px.png"
-                                    alt="Group of eighteen icons representing various budget categories.">
-                            </picture>
-                        </div>
-                        <div>
-                            <h5>Illustrations</h5>
-                            <picture>
-                                <source srcset="img/moneymerge/design/10_Illustrations_600px.png"
-                                    media="(max-width:1200px)">
-                                <img src="img/moneymerge/design/10_Illustrations_1200px.png"
-                                    alt="Group of five illustrations related to finances.">
-                            </picture>
-                        </div>
                     </div>
                 </div>
                 <!--End design section-->
                 <div>
-                    <!--Prototype section-->
+                    <!--Visual system section-->
+                    <div class="project-container-large">
+                        <h2 style="margin-bottom: 20px;">Visual System</h2>
+                    </div>
                     <div>
-                        <h3>Prototype</h3>
-                        <div>
-                            <a href="https://www.figma.com/proto/IMRSpLfmEkYvKcbIc3qQZ9/MoneyMerge?page-id=1356%3A14906&type=design&node-id=1356-17290&viewport=-313%2C-165%2C0.26&scaling=scale-down&starting-point-node-id=1356%3A17345&show-proto-sidebar=1"
-                                target="_blank" class="button">Explore the App</a>
+                        <h3 class="project-container-small">Colors</h3>
+                        <picture>
+                            <source srcset="img/moneymerge/design/08_colors_1200px.png" media="(max-width:767px)">
+                            <img src="img/moneymerge/design/08_colors_1200px.png" alt="Eight-color color palette">
+                        </picture>
+                    </div>
+                    <div>
+                        <h3 class="project-container-small">Typography</h3>
+                        <div class="row">
+                            <div class="col-lg-6" style="text-align: center;">
+                                <p class="poppins-one">Poppins</p>
+                                <p>Bold, semibold, and medium used for headers.</p>
+                            </div>
+                            <div class="col-lg-6" style="text-align: center;">
+                                <p class="poppins-two">Poppins</p>
+                                <p>Medium and regular used for body text.</p>
+                            </div>
                         </div>
+                    </div>
+                    <div>
+                        <h3 class="project-container-small">Iconography</h3>
+                        <picture>
+                            <source srcset="img/moneymerge/design/09_icons_1200px.png" media="(max-width:767px)">
+                            <img src="img/moneymerge/design/09_icons_1200px.png"
+                                alt="Group of eighteen icons representing various budget categories.">
+                        </picture>
+                    </div>
+                    <div>
+                        <h3 class="project-container-small">Illustrations</h3>
+                        <picture>
+                            <source srcset="img/moneymerge/design/10_illustrations_1200px.png"
+                                media="(max-width:767px)">
+                            <img src="img/moneymerge/design/10_illustrations_1200px.png"
+                                alt="Group of five illustrations related to finances.">
+                        </picture>
+                    </div>
+                </div>
+                <!--End visual design section-->
+                <div>
+                    <!--Key Learnings section-->
+                    <div class="project-container-large">
+                        <h2 style="margin-bottom: 20px;">Key Learnings</h2>
+                    </div>
+                    <div class="center row">
+                        <div class="column col-md-4 col-lg-4">
+                            <h4>Design, test, repeat</h4>
+                            <p>
+                                I learned the importance of gathering feedback early and
+                                often through testing. And when testing isn't feasible,
+                                applying best practices to my design becomes essential.
+                            </p>
+                        </div>
+                        <div class="column col-md-4 col-lg-4">
+                            <h4>Design for your users, not yourself</h4>
+                            <p>
+                                Early on, I realized the importance of avoiding design based
+                                solely on personal preferences and assumptions. Instead, I
+                                embraced the need to empathize with users and prioritize
+                                meeting their needs.
+                            </p>
+                        </div>
+                        <div class="column col-md-4 col-lg-4">
+                            <h4>Don't try to reinvent the wheel</h4>
+                            <p>
+                                When evaluating the budget flow, I discovered that a linear
+                                path may not be helpful if users lack context and clarity
+                                about the desired outcome. To address this, I sought
+                                inspiration from existing apps.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--End key learnings section-->
+                <div>
+                    <!--Prototype section-->
+                    <div class="center" style="margin-top: 50px; margin-bottom: 75px;">
+                        <a href="https://www.figma.com/proto/IMRSpLfmEkYvKcbIc3qQZ9/MoneyMerge?page-id=1356%3A14906&type=design&node-id=1356-17290&viewport=-313%2C-165%2C0.26&scaling=scale-down&starting-point-node-id=1356%3A17345&show-proto-sidebar=1"
+                            target="_blank" class="button explore">Explore the App</a>
                     </div>
                 </div>
                 <!--End prototype section-->
-                <div>
-                    <!--Conclusion section-->
-                    <div class="row">
-                        <div>
-                            <hr>
-                            <h2>Key Learnings</h2>
-                        </div>
-                        <div>
-                            <div class="column col-md-4 col-lg-4">
-                                <h4>Design, test, repeat</h4>
-                                <p>
-                                    I learned the importance of gathering feedback early and
-                                    often through testing. And when testing isn't feasible,
-                                    applying best practices to my design becomes essential.
-                                </p>
-                            </div>
-                            <div class="column col-md-4 col-lg-4">
-                                <h4>Design for your users, not yourself</h4>
-                                <p>
-                                    Early on, I realized the importance of avoiding design based
-                                    solely on personal preferences and assumptions. Instead, I
-                                    embraced the need to empathize with users and prioritize
-                                    meeting their needs.
-                                </p>
-                            </div>
-                            <div class="column col-md-4 col-lg-4">
-                                <h4>Don't try to reinvent the wheel</h4>
-                                <p>
-                                    When evaluating the budget flow, I discovered that a linear
-                                    path may not be helpful if users lack context and clarity
-                                    about the desired outcome. To address this, I sought
-                                    inspiration from existing apps.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End conclusion section-->
             </div>
             <!--End process-->
             <div class="fab-container" onclick="topFunction()" id="fabbutton">
