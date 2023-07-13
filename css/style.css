@@ -560,6 +560,11 @@ Medium devices (640px and larger)
     padding: 0;
   }
 
+  .col-md-1 {
+    width: 100%;
+    padding: 0;
+  }
+
   [class*="col-"] {
     float: left;
     padding: 10px;
